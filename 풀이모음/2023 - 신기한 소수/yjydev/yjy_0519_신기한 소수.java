@@ -22,9 +22,7 @@ public class _031_b15828 {
 	private static void print_q(Queue<Integer> queue) {
 		if(queue.isEmpty()) System.out.printf("empty");
 		else
-			while(!queue.isEmpty()) System.out.printf("%d ", queue.poll());
-		
-
+			while(!queue.isEmpty()) System.out.printf("%d ", queue.poll());	
 		return ;
 	}
 }
