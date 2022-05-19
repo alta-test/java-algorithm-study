@@ -15,7 +15,6 @@ public class _002_b1158 {
 
 		int N = Integer.parseInt(token.nextToken());
 		int K = Integer.parseInt(token.nextToken());
-		
 		int[] nums = new int[N];
 		
 		for(int idx = 0; idx< N; idx++) {
