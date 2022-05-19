@@ -24,7 +24,7 @@ public class _031_b15828 {
 		else
 			while(!queue.isEmpty()) System.out.printf("%d ", queue.poll());
 		
-		
+
 		return ;
 	}
 }
