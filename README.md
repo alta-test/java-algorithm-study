@@ -28,5 +28,5 @@
 |<center>14889 - 스타트와 링크</center>|-|-|-|-|   
 |<center>1759 - 암호 만들기</center>|-|-|-|-|   
 |<center>10819 - 차이를 최대로</center>|-|-|-|-|   
-|<center>6603 - 로또</center>|-|-|-|-|   
+|<center>6603 - 로또</center>|[_017_b6603](%ED%92%80%EC%9D%B4%EB%AA%A8%EC%9D%8C/6603%20-%20%EB%A1%9C%EB%98%90/alta-test/_017_b6603.java)|-|-|-|   
 ---   
