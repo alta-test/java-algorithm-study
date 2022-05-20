@@ -18,7 +18,6 @@ public class _013_b21735 {
 		for(int i=1; i<N+1; i++) {
 			yard[i] = Integer.parseInt(st.nextToken());
 		}
-		
 		System.out.println(result);
 		
 	}
