@@ -19,7 +19,6 @@ public class _013_b21735 {
 			yard[i] = Integer.parseInt(st.nextToken());
 		}
 		
-		make_ball(0, 0, M, 1);
 		System.out.println(result);
 		
 	}
