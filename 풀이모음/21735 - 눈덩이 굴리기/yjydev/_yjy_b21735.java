@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class _013_b21735 {
-	static int[] yard;;
+	static int[] yard;
 	static int result = -1;
 	public static void main(String args[]) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
