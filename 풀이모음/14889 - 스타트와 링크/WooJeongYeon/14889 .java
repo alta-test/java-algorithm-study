@@ -6,7 +6,7 @@ public class 14889  {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
-		int TC = Integer.parseInt(in.readLine());
+		int TC = Integer.parseInt(in.readLine()); 
 		Fibo[] fibos = new Fibo[41];
 		fibos[0] = new Fibo(1, 0);
 		fibos[1] = new Fibo(0, 1);
