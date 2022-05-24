@@ -20,7 +20,6 @@ public class _011_swea2383 {
 			int people_cnt = 0;							// �ο� ��
 			matrix = new int[N][N];
 			stair[0][0] = -1;
-			// ������ �Է�
 			for(int i=0; i<N; i++) {
 				StringTokenizer st = new StringTokenizer(bf.readLine());
 				for(int j=0; j<N; j++) {
