@@ -31,7 +31,6 @@ public class _009_b1388 {
 				}
 			}
 		}
-
 		return count;
 	}
 	public static void main (String args[]) throws IOException {
