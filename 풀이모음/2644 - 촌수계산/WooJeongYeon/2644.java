@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class 2644 {
+public class 2644 {  
     static String s;
     static char ans;
     static int max;
