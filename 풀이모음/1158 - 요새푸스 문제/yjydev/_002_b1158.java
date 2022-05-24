@@ -30,7 +30,6 @@ public class _002_b1158 {
 			}
 			length--;
 		}
-		result.setLength(result.length()-2);
 		result.append(">");
 		System.out.println(result.toString());
 	}
