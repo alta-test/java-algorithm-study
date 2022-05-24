@@ -12,7 +12,7 @@ public class 1759 {
         ArrayList<String> list = new ArrayList<>();
         HashSet<String> set = new HashSet<>();
         int N = Integer.parseInt(in.readLine());
-        for(int i = 0 ; i < N ; i++) {
+        for(int i = 0 ; i < N ; i++) {   
             set.add(in.readLine());
         }
         for(String s : set) {
