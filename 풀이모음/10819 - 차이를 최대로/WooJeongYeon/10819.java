@@ -14,7 +14,7 @@ public class 10819 {
      static Integer[] alpha;
      static int SIZE = 10;
      public static void main(String[] args) throws IOException {
-          BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+          BufferedReader in = new BufferedReader(new InputStreamReader(System.in));;;;;
           N = Integer.parseInt(in.readLine());
           alpha = new Integer['Z' - 'A' + 1];
           Arrays.fill(alpha, 0);
