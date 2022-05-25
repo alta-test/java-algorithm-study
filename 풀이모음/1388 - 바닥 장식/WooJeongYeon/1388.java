@@ -11,7 +11,7 @@ public class 1388 {
     static int[] alphaNum;
     static int N;
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));;;;
         s = in.readLine().toUpperCase();
         N = 'Z' - 'A' + 1;
         alphaNum = new int[N];
