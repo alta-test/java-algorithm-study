@@ -13,7 +13,7 @@ public class _013_b21735 {
 		int M = Integer.parseInt(st.nextToken());
 		
 		yard = new int[N+1];
-		st = new StringTokenizer(bf.readLine());
+		st = new StringTokenizer(bf.readLine());;
 		for(int i=1; i<N+1; i++) {
 			yard[i] = Integer.parseInt(st.nextToken());
 		}
