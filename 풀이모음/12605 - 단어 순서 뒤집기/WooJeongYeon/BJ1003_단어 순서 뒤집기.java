@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 public class 단어순서뒤집기 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));;;;
 		StringBuilder sb = new StringBuilder();
 		int TC = Integer.parseInt(in.readLine());
 		Fibo[] fibos = new Fibo[41];
