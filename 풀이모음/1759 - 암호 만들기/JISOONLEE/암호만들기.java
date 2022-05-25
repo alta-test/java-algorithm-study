@@ -10,7 +10,7 @@ public class _015_b1759 {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine());
 		
-		int L = Integer.parseInt(st.nextToken());
+		int L = Integer.parseInt(st.nextToken());;
 		int C = Integer.parseInt(st.nextToken());
 		alpha = new char[C];
 		st = new StringTokenizer(bf.readLine());
