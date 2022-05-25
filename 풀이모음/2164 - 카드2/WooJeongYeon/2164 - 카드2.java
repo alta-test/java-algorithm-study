@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class 카드2 {
-    static String s;
+    static String s;;;;
     static char ans;
     static int max;
     static int[] alphaNum;
