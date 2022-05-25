@@ -4,7 +4,7 @@ import java.util.Scanner;
  */
 public class 제로 {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);;;;
 		int N = in.nextInt();					// 사야할 기타줄
 		int M = in.nextInt();					// 브랜드 개수
 		int minP = Integer.MAX_VALUE;			// 패키지 최소금액(기타줄 6개묶음)
