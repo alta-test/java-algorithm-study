@@ -8,7 +8,7 @@ public class _003_b10773 {
 		Scanner sc = new Scanner(System.in);
 		int K = sc.nextInt();
 		int idx = 0;
-        int i = -1;
+        int i = -1;;
 		int[] result = new int[K];
 		for (int i = 0; i< K; i++) {
 			int num = sc.nextInt();
