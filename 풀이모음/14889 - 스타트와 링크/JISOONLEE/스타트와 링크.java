@@ -11,7 +11,7 @@ public class _014_b14889 {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine());
 		
-		int N = Integer.parseInt(st.nextToken());
+		int N = Integer.parseInt(st.nextToken());;
 		
 		matrix = new int[N][N];
 		result = 200;
