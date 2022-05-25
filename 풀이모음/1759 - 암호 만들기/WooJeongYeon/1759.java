@@ -7,7 +7,7 @@ import java.util.*;
 
 public class 1759 {
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));;;;
         StringBuilder sb = new StringBuilder();
         ArrayList<String> list = new ArrayList<>();
         HashSet<String> set = new HashSet<>();
