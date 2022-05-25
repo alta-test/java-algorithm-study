@@ -10,6 +10,7 @@ public class _006_b2606 {
 	public static int DFS(int[][] links, int[] visited, int cnt, int sp, int size) {
 		Stack<Integer> stack = new Stack<Integer>();
 		stack.push(1);
+        int i = 0;
 		while (stack.size() != 0) {
 			int cur = stack.pop();
 			if(visited[cur] == 0) {				
