@@ -1,51 +1,66 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.LinkedList;
+import java.util.Queue;
+
+class Pair {
+    int x;
+    int y;
+    
+    public Pair(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+}
 
 public class Solution {
-	public static char[][] maze = new char[100][100];
-	public static boolean answer;
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringBuilder sb = new StringBuilder("");
-		
-		for (int tc = 1; tc <= 10; ++tc) {
-			br.readLine();
-			
-			answer = false;		
-			for (int i = 0; i < 100; ++i) {
-				maze[i] = br.readLine().toCharArray();
-			}
-			
-			dfs(1, 1);
-			
-			sb.append("#").append(tc).append(" ").append(answer ? 1 : 0).append("\n");
-		}
-		
-		System.out.println(sb);
-	}
+	static int N = 16;
+	static char[][] arr;
+	static int[] dx = {-1,1,0,0};
+	static int[] dy = {0,0,-1,1};
+	static Queue<Pair> queue;
 	
-	public static int[] dx = {0, 0, -1, 1};
-	public static int[] dy = {-1, 1, 0, 0};
-	public static void dfs(int y, int x) {
-		maze[y][x] = '1';
-		
-		for (int i = 0; i < 4; ++i) {
-			int ny = y + dy[i];
-			int nx = x + dx[i];
-			
-			if (ny < 0 || nx < 0 || ny >= 100 || nx >= 100) {
-				continue;
-			}
-			
-			if (maze[ny][nx] == '3') {
-				answer = true;
-				return;
-			}
-		
-			if (maze[ny][nx] == '0') {
-				dfs(ny, nx);
-			}
-		}
-	}
+    public static void main(String[] args) throws IOException{
+    	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    	
+    	for(int t = 1; t <= 10; t++) {
+    		int test = Integer.parseInt(br.readLine());
+    		queue = new LinkedList<Pair>();
+    		arr = new char[N][N];
+    		
+    		for(int i = 0; i < N; i++) {
+    			String str = br.readLine();
+    			for(int j = 0; j < N; j++) {
+    				arr[i][j] = str.charAt(j);
+    			}
+    		}
+    		
+    		System.out.print("#" + test + " ");
+    		bfs(1,1);
+    	}
+    }
+    
+    public static void bfs(int x, int y) {
+    	queue.offer(new Pair(x,y)); 
+    	arr[x][y] = '1';
+    	
+    	while(!queue.isEmpty()) {
+    		Pair cur = queue.poll();
+    		for(int i = 0; i < 4; i++) {
+    			int curX = cur.x + dx[i];
+    			int curY = cur.y + dy[i];
+    			if(arr[curX][curY] == '0') {
+    				queue.offer(new Pair(curX,curY));
+    				arr[curX][curY] = '1';
+    			}
+    			if(arr[curX][curY] == '3') {
+    				System.out.println("1");
+        			return;
+    			}
+    		}
+    	}
+    	
+    	System.out.println("0");
+    }
 }
