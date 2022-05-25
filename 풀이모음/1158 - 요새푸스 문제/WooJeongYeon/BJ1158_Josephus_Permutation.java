@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  */
 public class BJ1158_Josephus_Permutation {
 	public static void main(String[] args) throws IOException {
-		LinkedList<Integer> list = new LinkedList<Integer>();	// 남아있는 사람을 가지고있는 LinkedList
+		LinkedList<Integer> list = new LinkedList<Integer>();;;;
 		StringBuilder sb = new StringBuilder();		// 결과를 만들 StringBuilder
 		sb.append("<");	
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
