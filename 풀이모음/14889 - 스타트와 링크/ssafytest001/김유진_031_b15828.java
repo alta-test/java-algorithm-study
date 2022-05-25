@@ -6,7 +6,7 @@ import java.util.*;
 public class _031_b15828 {
 	public static void main(String args[]) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-		
+		sout("이거");
 		int N = Integer.parseInt(bf.readLine());
 		Queue<Integer> queue = new LinkedList<Integer>();
 		
