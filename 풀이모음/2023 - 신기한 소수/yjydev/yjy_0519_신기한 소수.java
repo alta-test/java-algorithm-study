@@ -8,7 +8,7 @@ public class _031_b15828 {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		
 		int N = Integer.parseInt(bf.readLine());
-		Queue<Integer> queue = new LinkedList<Integer>();
+		Queue<Integer> queue = new LinkedList<Integer>();;
 		
 		while(true) {
 			int input = Integer.parseInt(bf.readLine());
