@@ -9,7 +9,7 @@ public class _016_b10819 {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		
 		StringTokenizer st = new StringTokenizer(bf.readLine());
-		int N = Integer.parseInt(st.nextToken());
+		int N = Integer.parseInt(st.nextToken());;
 		
 		st = new StringTokenizer(bf.readLine());
 		int[] arr = new int[N];
