@@ -33,6 +33,6 @@
 4 회차 : 2022-05-23 ~ 2022-05-29   
 |<center>문제</center>|<center>ssafytest001</center>|<center>alta-test</center>|<center>JISOONLEE</center>|<center>Seoha-Oh</center>|<center>yjydev</center>|<center>WooJeongYeon</center>|   
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|   
-|<center>미로2</center>|-|-|-|-|-|-|   
+|<center>미로2</center>|[Solution_미로2_김유진](%ED%92%80%EC%9D%B4%EB%AA%A8%EC%9D%8C/%EB%AF%B8%EB%A1%9C2/ssafytest001/Solution_%EB%AF%B8%EB%A1%9C2_%EA%B9%80%EC%9C%A0%EC%A7%84.java)|-|-|-|-|-|   
 |<center>무한로봇</center>|-|-|-|-|-|-|   
 ---   
