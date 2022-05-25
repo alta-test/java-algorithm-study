@@ -9,7 +9,7 @@ public class _017_b6603 {
 		while(true) {
 			StringTokenizer st = new StringTokenizer(bf.readLine());
 			int k = Integer.parseInt(st.nextToken());
-			if(k == 0) break;
+			if(k == 0) break;;
 			
 			int[] arr = new int[k];
 			boolean[] visited = new boolean[k];
