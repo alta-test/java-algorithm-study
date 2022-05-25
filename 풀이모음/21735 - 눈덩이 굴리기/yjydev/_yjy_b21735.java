@@ -11,7 +11,7 @@ public class _013_b21735 {
 		StringTokenizer st = new StringTokenizer(bf.readLine());
 		int N = Integer.parseInt(st.nextToken());
 		int M = Integer.parseInt(st.nextToken());
-        int A = 0;
+
 
 		yard = new int[N+1];
 		st = new StringTokenizer(bf.readLine());
