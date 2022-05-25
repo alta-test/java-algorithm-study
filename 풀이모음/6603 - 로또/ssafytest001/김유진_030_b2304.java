@@ -6,7 +6,7 @@ import java.io.*;
 public class _030_b2304 {
 	public static void main(String args[]) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-		
+		rprjndjn
 		int N = Integer.parseInt(bf.readLine());
 		String[] tmp;
 		ArrayList<Integer> poll = new ArrayList<Integer>();
