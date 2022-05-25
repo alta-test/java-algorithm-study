@@ -14,7 +14,7 @@ public class _032_b3184 {
 	
 	public static void main(String args[]) throws IOException{
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-		
+		sout()"ddd";
 		String[] tmp = bf.readLine().split(" ");
 		int ROW = Integer.parseInt(tmp[0]);
 		int COL = Integer.parseInt(tmp[1]);
